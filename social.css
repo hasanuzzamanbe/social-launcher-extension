@@ -1,0 +1,9 @@
+.social-launcher-logo img {border: 1px solid red;width: 28px;border-radius: 49px;height: 28px;display: inline;}
+.social-launcher-descr {padding: 9px;border-top: 1px solid red;min-width: 222px;border-bottom: 1px solid red;width: 18%;margin-top: 4px;margin-bottom: 14px;}
+.social-launcher-title {display: inline;    margin-left: 12px;}
+.social_launcher_body img:hover {transform: rotate(26deg);}
+span.version {color: #9C27B0;font-size: 11px;font-weight: bold;}
+.social_launcher_body img {width: 33px;margin-top: 10px;margin-right: 12px; position:initial;transition-duration: .5s;}
+.sl-feedback button {margin-top: 17px;float: right;font-size: 9px;font-weight: bold;}
+.sl-feedback button:hover {background: #4CAF50;color: white;cursor: pointer;}
+.social_launcher_body {width: 260px;padding-left: 9px;padding-right: 9px;}
