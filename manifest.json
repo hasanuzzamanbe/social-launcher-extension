@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Social Launcher",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Quick Launce To your socials",
   "icons": { 
          "128": "images/social_launcher_logo.png" 
