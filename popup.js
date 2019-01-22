@@ -10,7 +10,7 @@ chrome.topSites.get(function (top){
     }
 })
 var topBtn = document.getElementById('topBtn')
-topBtn.addEventListener('click', function(){
+topBtn.addEventListener('mouseover', function(){
     var element = document.getElementById("topSites");
     element.classList.toggle("showHide");
 })
