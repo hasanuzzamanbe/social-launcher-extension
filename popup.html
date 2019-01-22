@@ -16,7 +16,7 @@
 	
 		
 	<div class="social-launcher-descr">Quick access your socials<a title="Rate Me" target="_blank" href="https://chrome.google.com/webstore/detail/social-launcher/ioijhmpjoplcmckgaiggcoockjijmcim"><img src="images/heart_45.png"></a></div>
-	<div class="social_launcher_body">	
+	<div id="main-body" class="social_launcher_body">
 		<a title="google" href="http://www.google.com" target="_blank"><img src="images/g_icon.png" class="g-logo"></a>
 		<a title="facebook" href="http://www.facebook.com" target="_blank"><img class="f-logo" src="images/fb_icon.png"></a>
 		<a title="youtube" href="http://www.youtube.com" target="_blank"><img class="m-logo" src="images/yt-icon.png"></a>
@@ -27,7 +27,28 @@
 		<a title="gitlab" href="http://www.gitlab.com" target="_blank"><img src="images/gl-icon.png" class="g-logo"></a>
 		<a title="medium" href="http://www.medium.com" target="_blank"><img src="images/md-icon.png" class="g-logo"></a>
 		<a title="linkedin" href="http://linkedin.com" target="_blank"><img src="images/ln-icon.png" class="g-logo"></a>
-		
+	</div>
+	<div id="main-body-bottom"></div>
+	<div id="settings" class="showHide">
+		settings menu:
+		<br>
+		<span><img id="customLogo" src="images/img_1.png" alt=""></span>
+		<br>
+		<div id="formGroup">
+		<form>
+		<select name="sel" id="setLogo">
+			<option value="link1">icon1</option>
+			<option value="link2">icon2</option>
+			<option value="link3">icon3</option>
+			<option value="link4">icon4</option>
+			<option value="link5">icon5</option>
+	    </select>
+			<br>
+		<input id="link1" type="text" placeholder="add a link ">
+			<br>
+			<button id="subm" type="submit">Add link</button>
+		</form>
+	</div>
 	</div>
 	<button id="topShowBtn">Show/ Hide your top sites</button>
 	<img id="plus" title="Add custom link" src="images/plus_30.png" alt="">

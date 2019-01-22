@@ -53,4 +53,33 @@ img#plus {
     margin-left: 55px;
     cursor: pointer;
 }
+#settings {
+    color: white;
+    min-width:279px;
+}
+input#link1 {
+    width: 168px;
+    height: 18px;
+}
+#setLogo {
+    height: 25px;
+    margin-bottom: 4px;
+}
+img#customLogo {
+    margin-top: 14px;
+    margin-bottom: -13px;
+}
 
+#subm {
+    height: 24px;
+    margin-top:4px;
+}
+div#formGroup {
+    margin-left: 50px;
+    margin-top: -32px;
+}
+img.icon-logo {
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
