@@ -5,39 +5,25 @@
 .social-launcher-title {display: inline;    margin-left: 12px;}
 .social_launcher_body img:hover { transform: rotate(26deg);}
 span.version {color: #9C27B0;font-size: 11px;font-weight: bold;margin-left:10px;}
-.social_launcher_body img {width: 33px;
-    margin-top: 10px;margin-right: 12px; position:initial; transition-duration: .5s}
-
+.social_launcher_body img {width: 33px;margin-top: 10px;margin-right: 12px; position:initial; transition-duration: .5s}
 .sl-feedback button {margin-top: 17px;float: right;font-size: 9px;font-weight: bold;}
 .sl-feedback button:hover { background: #4CAF50;color: white;    cursor: pointer;}
-.social_launcher_body {
-    width: 260px;
-    padding-left: 9px;
-    padding-right: 9px;
-}
-.social-launcher-descr img {
-    width: 23px;
-    margin-left: 9px;
-}
-.social-launcher-descr img:hover {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-}
-
-body.social-launcher-main {
-    padding-left: 24px;
-    padding-bottom: 12px;
-}
-@keyframes shake {
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
+.social_launcher_body {width: 260px;max-width: 270px;padding-left: 9px;padding-right: 9px;}
+.social-launcher-descr img {width: 23px;margin-left: 9px;}
+.social-launcher-descr img:hover {animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;}
+body.social-launcher-main {padding-left: 24px;padding-bottom: 12px;}
+@keyframes shake { 10%, 90% {transform: translate3d(-1px, 0, 0);}
+    20%, 80% {transform: translate3d(2px, 0, 0);}
+    30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
+    40%, 60% {transform: translate3d(4px, 0, 0);}
   }
+  div#topSites {
+  	max-width:270px;
+  }
+div#topSites ul li {margin-bottom: 12px;cursor: pointer;}
+div#topSites ul li a {text-decoration: none;color: #673AB7;}
+div#topSites ul li a:hover {text-decoration: underline;color: #673AB7;}
+.showHide {display:none;}
+button#topBtn ,#hdBtn {margin-top: 14px;text-align: center;background: #FFEB3B;border-radius: 5px;cursor: pointer;}
+
+

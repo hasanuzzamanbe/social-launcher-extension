@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Social Launcher",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Quick Launce To your socials",
   "icons": { 
          "128": "images/social_launcher_logo.png" 
@@ -12,6 +12,6 @@
   },
   "author": "Hasanuzzaman",
   "optional_permissions": ["tabs"],
-  "permissions": ["tabs"],
+  "permissions": ["tabs", "topSites"],
   "short_name": "S Launch"
 }
