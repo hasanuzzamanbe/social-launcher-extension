@@ -46,8 +46,8 @@ div#topSites ul li a:hover {
     color: #FFEB3B;
 }
 .showHide {display:none;}
-button#topBtn ,#hdBtn {margin-top: 14px;color: #ffffff;text-align: center; background: #ff14aa73;border-radius: 5px;cursor: pointer;}
-img.plus {
+button#topShowBtn ,#hdBtn {margin-top: 14px;color: #ffffff;text-align: center; background: #ff14aa73;border-radius: 5px;cursor: pointer;}
+img#plus {
     margin-top: 8px;
     position: absolute;
     margin-left: 55px;

@@ -12,6 +12,6 @@
   },
   "author": "Hasanuzzaman",
   "optional_permissions": ["tabs"],
-  "permissions": ["tabs", "topSites"],
+  "permissions": ["tabs", "topSites", "storage"],
   "short_name": "S Launch"
 }

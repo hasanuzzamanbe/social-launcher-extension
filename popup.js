@@ -9,9 +9,12 @@ chrome.topSites.get(function (top){
         document.getElementById('topSites').innerHTML = str;
     }
 })
-var topBtn = document.getElementById('topBtn')
-topBtn.addEventListener('mouseover', function(){
-    var element = document.getElementById("topSites");
-    element.classList.toggle("showHide");
-})
+var topBtnSel = document.getElementById('topShowBtn')
+if(topBtnSel) {
+    topBtnSel.addEventListener('mouseover', function(){
+        var element = document.getElementById("topSites");
+        element.classList.toggle("showHide");
+    })
+}
+
 
