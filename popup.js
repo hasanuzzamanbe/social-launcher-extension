@@ -1,3 +1,5 @@
+
+
 chrome.topSites.get(function (top){
     if(top){
         var str = '<ul>'
@@ -41,29 +43,82 @@ if(sel){
 
 function srcIcon(){
     var opt = sel.options[sel.selectedIndex].value;
-    if(opt == "link1"){
+    if(opt == "iconone"){
         document.getElementById("customLogo").src ="images/img_1.png"
     }
-    if (opt == "link2"){
+    if (opt == "icontwo"){
         document.getElementById("customLogo").src ="images/img_2.png"
     }
-    if (opt == "link3"){
+    if (opt == "iconthree"){
         document.getElementById("customLogo").src ="images/img_3.png"
     }
-    if (opt == "link4"){
+    if (opt == "iconfour"){
         document.getElementById("customLogo").src ="images/img_4.png"
     }
-    if (opt == "link5"){
+    if (opt == "iconfive"){
         document.getElementById("customLogo").src ="images/img_5.png"
     }
 }
-var newLink =document.getElementById("main-body-bottom")
-    if(newLink){
-        newLink.innerHTML =`  <a title="add new" href="" target="_blank"><img src="images/img_1.png" class="icon-logo"></a>
-    <a title="add new" href="" target="_blank"><img src="images/img_2.png" class="icon-logo"></a>
-    <a title="add new" href="" target="_blank"><img src="images/img_3.png" class="icon-logo"></a>
-    <a title="add new" href="" target="_blank"><img src="images/img_4.png" class="icon-logo"></a>
-    <a title="add new" href="" target="_blank"><img src="images/img_5.png" class="icon-logo"></a>`
+
+
+var saved = document.getElementById('subm')
+if(saved){
+    saved.addEventListener('click',function(){
+        var cmdLink = document.getElementById("setLogo")
+        var pic = cmdLink.options[cmdLink.selectedIndex].value;
+        var newLink = document.getElementById("linkNew").value
+        newLink = 'http://' + newLink
+        if(pic === "iconone"){
+            chrome.storage.sync.set({iconone: newLink}, function() {
+            });
+        }
+        if(pic === "icontwo"){
+            chrome.storage.sync.set({icontwo: newLink}, function() {
+            });
+        }
+        if(pic === "iconthree"){
+            chrome.storage.sync.set({iconthree: newLink}, function() {
+            });
+        }
+        if(pic === "iconfour"){
+            chrome.storage.sync.set({iconfour: newLink}, function() {
+            });
+        }
+        if(pic === "iconfive"){
+            chrome.storage.sync.set({iconfive: newLink}, function() {
+            });
+        }
+
+    })
+}
+
+chrome.storage.sync.get(['iconone','icontwo','iconthree', 'iconfour', 'iconfive'], function(result) {
+    if(result.iconone){
+        document.getElementById('icon1').href = result.iconone
+        document.getElementById('icon1').title = result.iconone
     }
+    if(result.icontwo){
+        document.getElementById('icon2').href = result.icontwo
+        document.getElementById('icon2').title = result.icontwo
+
+    }
+    if(result.iconthree){
+        document.getElementById('icon3').href = result.iconthree
+        document.getElementById('icon3').title = result.iconthree
+    }
+    if(result.iconfour){
+        document.getElementById('icon4').href = result.iconfour
+        document.getElementById('icon4').title = result.iconfour
+
+    }
+    if(result.iconfive){
+        document.getElementById('icon5').href = result.iconfive
+        document.getElementById('icon5').title = result.iconfive
+    }
+});
+
+
+
+
 
 
