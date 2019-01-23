@@ -1,126 +1,37 @@
-.social-launcher-logo img {
-    border: 1px solid red;
-    width: 28px;
-    border-radius: 49px;
-}
-.social-launcher-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.social-launcher-descr {
-    line-height: 19px;
-    font-size: 16px;
-    border-top: 1px solid red;
-    min-width: 222px;
-    border-bottom: 1px solid red;
-    width: 18%;
-    margin-bottom: -11px;
-    color: #ff125a;
-    margin-top: 19px;
-}
-.social-launcher-title {
-    color: #f7fbff;
-    margin: 0;
-}
-.social_launcher_body img:hover {
-    transform: scale(1.3);
-}
-span.version {
-    color: #9C27B0;
-    font-size: 11px;
-    font-weight: bold;
-    margin-right: 30px;
-    display: block;
-}
+.social-launcher-logo img {border: 1px solid red;width: 28px;border-radius: 49px;}
+.social-launcher-logo {display: flex;align-items: center;justify-content: space-between;}
+.social-launcher-descr {line-height: 19px;font-size: 16px;border-top: 1px solid red;min-width: 222px;border-bottom: 1px solid red;width: 18%;margin-bottom: -11px;color: #ff125a;margin-top: 19px;}
+.social-launcher-title {color: #f7fbff;margin: 0;}
+.social_launcher_body img:hover {transform: scale(1.3);}
+span.version {color: #9C27B0;font-size: 11px;font-weight: bold;margin-right: 30px;display: block;}
 .social_launcher_body img {margin-bottom: 6px;width: 33px;margin-top: 10px;margin-right: 12px; position:initial; transition-duration: .5s}
 .sl-feedback button {margin-top: 17px;float: right;font-size: 9px;font-weight: bold;}
 .sl-feedback button:hover { background: #4CAF50;color: white;    cursor: pointer;}
-.social_launcher_body {
-    width: 260px;
-    max-width: 270px;
-    padding-left: 9px;
-    padding-right: 9px;
-    border-top: 1px solid #884646;
-    padding-top: 4px;
-    margin-top: 14px;
-}
+.social_launcher_body {width: 260px;max-width: 270px;padding-left: 9px;padding-right: 9px;border-top: 1px solid #884646;padding-top: 4px;margin-top: 14px;}
 .social-launcher-descr img {width: 23px;margin-left: 9px;}
 .social-launcher-descr img:hover {animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;}
-body.social-launcher-main {
-    padding-left: 24px;
-    padding-bottom: 12px;
-    background: #1A214B;
-}
+body.social-launcher-main {padding-left: 24px;padding-bottom: 12px;background: #1A214B;}
 @keyframes shake { 10%, 90% {transform: translate3d(-1px, 0, 0);}
     20%, 80% {transform: translate3d(2px, 0, 0);}
     30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
     40%, 60% {transform: translate3d(4px, 0, 0);}
   }
-  div#topSites {
-  	max-width:270px;
-  }
+  div#topSites {max-width:270px;}
 div#topSites ul li {margin-bottom: 12px;cursor: pointer;    color: wheat;}
 div#topSites ul li a {text-decoration: none;    color: #d9dbe8;}
-div#topSites ul li a:hover {
-    text-decoration: underline;
-    color: #FFEB3B;
-}
+div#topSites ul li a:hover {text-decoration: underline;color: #FFEB3B;}
 .showHide {display:none;}
 button#topShowBtn ,#hdBtn {margin-top: 14px;color: #ffffff;text-align: center; background: #ff14aa73;border-radius: 5px;cursor: pointer;}
-img#plus {
-    margin-top: 8px;
-    position: absolute;
-    margin-left: 55px;
-    cursor: pointer;
-}
-#settings {
-    color: white;
-    min-width: 279px;
-    margin-top: 16px;
-}
-input#link1 {
-    width: 168px;
-    height: 18px;
-}
-#setLogo {
-    height: 25px;
-    margin-bottom: 4px;
-}
-img#customLogo {
-    margin-top: 14px;
-    margin-bottom: -13px;
-}
-
-#subm {
-    height: 24px;
-    margin-top: 4px;
-}
-div#formGroup {
-    margin-left: 50px;
-    margin-top: -32px;
-}
-img.icon-logo {
-    width: 35px;
-    margin-left: 10px;
-    margin-top: 11px;
-}
-img.icon-logo {
-    width: 35px;
-    margin-left: 10px;
-    margin-top: 11px;
-    cursor: pointer;
-    transition-duration: .5s;
-}
-img.icon-logo:hover {
-    transform: scale(1.3);
-}
-input#linkNew {
-    height: 18px;
-    width: 151px;
-    margin-top: 15px;
-}
-span#htp {
-    margin-left: -37px;
-    margin-right: 4px;
-}
+img#plus {margin-top: 8px;position: absolute;margin-left: 55px;cursor: pointer;}
+#settings {color: white;min-width: 279px;margin-top: 16px;}
+input#link1 {width: 168px;height: 18px;}
+#setLogo {height: 25px;margin-bottom: 4px;}
+img#customLogo {margin-top: 14px;margin-bottom: -13px;}
+#subm {height: 24px;margin-top: 4px;}
+div#formGroup {margin-left: 50px;margin-top: -32px;}
+img.icon-logo {width: 35px;margin-left: 10px;margin-top: 11px;}
+img.icon-logo {width: 35px;margin-left: 10px;margin-top: 11px;cursor: pointer;transition-duration: .5s;}
+img.icon-logo:hover {transform: scale(1.3);}
+input#linkNew {height: 18px;width: 151px;margin-top: 15px;}
+span#htp {margin-left: -37px;margin-right: 4px;}
+input#cusIcLink {margin-top: 11px;height: 17px;width: 153px;}

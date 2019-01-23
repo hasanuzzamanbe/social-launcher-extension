@@ -10,12 +10,9 @@
 	<div class="social-header">
 		<div class="social-launcher-logo">
 			<img src="images/social_launcher_logo.png" alt="Social Launcher" class="logo-icon">
-			<h2 class="social-launcher-title"> Social Launcher</h2><span class="version">(V-1.0.5)</span>
+			<h2 class="social-launcher-title"> Social Launcher</h2><span class="version">(V-2.0.0)</span>
 		</div>
 	</div>
-	
-		
-
 	<div id="main-body" class="social_launcher_body">
 		<a title="Google" href="http://www.google.com" target="_blank"><img src="images/g_icon.png" class="g-logo"></a>
 		<a title="Facebook" href="http://www.facebook.com" target="_blank"><img class="f-logo" src="images/fb_icon.png"></a>
@@ -29,38 +26,43 @@
 		<a title="Linkedin" href="http://linkedin.com" target="_blank"><img src="images/ln-icon.png" class="g-logo"></a>
 	</div>
 	<div id="main-body-bottom">
-		<a title="add new" id="icon1" href="javascript:" target="_blank"><img  src="images/img_1.png" class="icon-logo"></a>
-		<a title="add new" id="icon2" href="javascript:" target="_blank"><img  src="images/img_2.png" class="icon-logo"></a>
-		<a title="add new" id="icon3" href="javascript:" target="_blank"><img  src="images/img_3.png" class="icon-logo"></a>
-		<a title="add new" id="icon4" href="javascript:" target="_blank"><img  src="images/img_4.png" class="icon-logo"></a>
-		<a title="add new" id="icon5" href="javascript:" target="_blank"><img  src="images/img_5.png" class="icon-logo"></a>
+		<a title="add new" id="icon1" href="http://www.google.com" target="_blank"><img id="iconLogo1" src="images/img_1.png" class="icon-logo"></a>
+		<a title="add new" id="icon2" href="http://www.google.com" target="_blank"><img id="iconLogo2" src="images/img_2.png" class="icon-logo"></a>
+		<a title="add new" id="icon3" href="http://www.google.com" target="_blank"><img id="iconLogo3" src="images/img_3.png" class="icon-logo"></a>
+		<a title="add new" id="icon4" href="http://www.google.com" target="_blank"><img id="iconLogo4" src="images/img_4.png" class="icon-logo"></a>
+		<a title="add new" id="icon5" href="http://www.google.com" target="_blank"><img id="iconLogo5" src="images/img_5.png" class="icon-logo"></a>
 	</div>
 	<div id="settings" class="showHide">
 		<h3>Add your Link :</h3>
-		<span>you can add upto 5 links, choose an icon and and paste your link.</span>
+		<span>you can add upto 5 links, choose an icon and <br>paste your link. If you want to use a custom icon
+			please paste the image link to the 'custom icon link'  field. NB: Try to use small size image.
+		  Empty field set to default icon.
+		</span>
 		<br>
 		<span><img id="customLogo" src="images/img_1.png" alt=""></span>
 		<br>
 		<div id="formGroup">
 		<form>
 		<select name="sel" id="setLogo">
-			<option value="iconone">icon1</option>
-			<option value="icontwo">icon2</option>
-			<option value="iconthree">icon3</option>
-			<option value="iconfour">icon4</option>
-			<option value="iconfive">icon5</option>
+			<option value="iconone">Position 1</option>
+			<option value="icontwo">Position 2</option>
+			<option value="iconthree">Position 3</option>
+			<option value="iconfour">Position 4</option>
+			<option value="iconfive">Position 5</option>
 	    </select>
+			<br>
+			<input id="cusIcLink" placeholder="Paste your custom icon link" type="text">
 			<br>
 		<span id="htp">http://</span><input id="linkNew" type="text" placeholder="www...... ">
 
 			<button id="subm" type="submit">Add</button>
 		</form>
+			<p></p>
 	</div>
 	</div>
 	<button id="topShowBtn">Show/ Hide your top sites</button>
 	<img id="plus" title="Add custom link" src="images/plus_30.png" alt="">
 	<div id="topSites" class="showHide">
-
 	</div>
 	<div class="social-launcher-descr">Quick access your socials<a title="Rate Me" target="_blank" href="https://chrome.google.com/webstore/detail/social-launcher/ioijhmpjoplcmckgaiggcoockjijmcim"><img src="images/heart_45.png"></a></div>
 <script src="popup.js"></script>
