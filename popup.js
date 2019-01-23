@@ -1,7 +1,7 @@
 
-
 chrome.topSites.get(function (top){
     if(top){
+        top = top.splice(0, 7)
         var str = '<ul>'
         top.forEach(data=>{
             var name = data.title;
