@@ -1,4 +1,4 @@
-# social-launcher-extension
+# Social-launcher
 Quick access to your socials.
 It's a browser extension for Chrome that can help to connect your popular sites by one click.
 I used Javascript and Google Chrome API for this project.
