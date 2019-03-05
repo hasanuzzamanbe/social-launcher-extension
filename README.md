@@ -7,8 +7,9 @@ With a nice design.
 
 It's available now on google <a href="https://chrome.google.com/webstore/detail/social-launcher/ioijhmpjoplcmckgaiggcoockjijmcim"> Chrome Web Store</a>
 
-Check The Video On Youtube:
-<a href="https://www.youtube.com/watch?v=kGrZRbSTQwY" target="_blank" ><img src="vdo.png"></a>
+## Check The Video On Youtube:<br>
+<a href="https://www.youtube.com/watch?v=kGrZRbSTQwY" target="_blank" ><img style="border: 3px solid rgb(158, 179, 177);
+    box-shadow: black 3px 7px 14px;" src="vdo.png"></a>
 
 
 ## My another work on Webstore:
