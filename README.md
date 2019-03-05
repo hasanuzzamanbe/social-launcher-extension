@@ -10,7 +10,8 @@ It's available now on google <a href="https://chrome.google.com/webstore/detail/
 ## Check The Video On Youtube:<br>
 <a href="https://www.youtube.com/watch?v=kGrZRbSTQwY" target="_blank" ><img style="border: 3px solid rgb(158, 179, 177);
     box-shadow: black 3px 3px 7px;
-    border-radius: 15px;" src="vdo.png"></a>
+    border-radius: 15px;
+    max-width: 480px;" src="vdo.png"></a>
 
 
 ## My another work on Webstore:
