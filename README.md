@@ -1,4 +1,4 @@
-# Social-launcher <img src="icon.png">
+# Social-launcher <img style="width: 46px; margin-left: 23px;" src="icon.png">
 Quick access to your socials.
 It's a browser extension for Chrome that can help to connect your popular sites by one click.
 I used Javascript and Google Chrome API for this project.
@@ -9,7 +9,8 @@ It's available now on google <a href="https://chrome.google.com/webstore/detail/
 
 ## Check The Video On Youtube:<br>
 <a href="https://www.youtube.com/watch?v=kGrZRbSTQwY" target="_blank" ><img style="border: 3px solid rgb(158, 179, 177);
-    box-shadow: black 3px 7px 14px;" src="vdo.png"></a>
+    box-shadow: black 3px 3px 7px;
+    border-radius: 15px;" src="vdo.png"></a>
 
 
 ## My another work on Webstore:
@@ -27,6 +28,6 @@ Please, Just Let me know about it.<br>
 or 
 ## Knock me on:<br>
 
-<a href="https://www.facebook.com/shamim.reza.1029" target="_blank" ><img src="/images/fb_icon.png"></a>
-<a href="https://www.linkedin.com/in/hasanuzzaman-shamim-307680115/" target="_blank" ><img src="/images/ln-icon.png"></a>
+<a href="https://www.facebook.com/shamim.reza.1029" target="_blank" >Facebook</a>
+<a href="https://www.linkedin.com/in/hasanuzzaman-shamim-307680115/" target="_blank" >LinkedIn</a>
 
