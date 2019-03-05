@@ -1,6 +1,6 @@
 # social-launcher-extension
 Quick access to your socials.
-This is my first project for Google. It's a browser extension for Chrome that can help to connect your popular sites by one click.
+It's a browser extension for Chrome that can help to connect your popular sites by one click.
 I used Javascript and Google Chrome API for this project.
 The latest version includes a new feature of your top sites.
 With a nice design.
