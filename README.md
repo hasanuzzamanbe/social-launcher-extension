@@ -31,4 +31,5 @@ or
 
 <a style="border: 1px solid #292828;padding: 2px;border-radius: 7px;background: #03A9F4;color: white;" href="https://www.facebook.com/shamim.reza.1029" target="_blank" >Facebook</a>
 <a style="border: 1px solid #292828;padding: 2px;border-radius: 7px;background: #00BCD4;color: white;" href="https://www.linkedin.com/in/hasanuzzaman-shamim-307680115/" target="_blank" >LinkedIn</a>
+<a style="border: 1px solid #292828;padding: 2px;border-radius: 7px;background: #54b658;color: white;" href="https://bit.ly/hasanuzzaman" target="_blank" >Contacts</a>
 
