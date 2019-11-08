@@ -18,7 +18,7 @@ It's available now on google <a target="_blank" href="https://chrome.google.com/
   Webstore Link:
   <a target="_blank" href="https://chrome.google.com/webstore/detail/quick-search-lite/boikedohmpklkpcmpkickjfnmalfbimf">Quick Search lite</a><br>
   Website Link:
-  <a href="https://hasanuzzamanbe.github.io/quick-search-extension/">Quick Search lite</a><br>
+  <a target="_blank" href="https://hasanuzzamanbe.github.io/quick-search-extension/">Quick Search lite</a><br>
   
 Hope you all enjoy my projects.
 If you have any suggestion I really appreciate you.
