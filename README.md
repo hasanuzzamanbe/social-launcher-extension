@@ -5,7 +5,7 @@ I used Javascript and Google Chrome API for this project.
 The latest version includes a new feature of your top sites.
 With a nice design.
 
-It's available now on google <a href="https://chrome.google.com/webstore/detail/social-launcher/ioijhmpjoplcmckgaiggcoockjijmcim"> Chrome Web Store</a>
+It's available now on google <a target="_blank" href="https://chrome.google.com/webstore/detail/social-launcher/ioijhmpjoplcmckgaiggcoockjijmcim"> Chrome Web Store</a>
 
 ## Check The Video On Youtube:<br>
 <a href="https://www.youtube.com/watch?v=kGrZRbSTQwY" target="_blank" ><img style="border: 3px solid rgb(158, 179, 177);
@@ -16,7 +16,7 @@ It's available now on google <a href="https://chrome.google.com/webstore/detail/
 
 ## My another work on Webstore:
   Webstore Link:
-  <a href="https://chrome.google.com/webstore/detail/quick-search-lite/boikedohmpklkpcmpkickjfnmalfbimf">Quick Search lite</a><br>
+  <a target="_blank" href="https://chrome.google.com/webstore/detail/quick-search-lite/boikedohmpklkpcmpkickjfnmalfbimf">Quick Search lite</a><br>
   Website Link:
   <a href="https://hasanuzzamanbe.github.io/quick-search-extension/">Quick Search lite</a><br>
   
@@ -24,7 +24,7 @@ Hope you all enjoy my projects.
 If you have any suggestion I really appreciate you.
 Please, Just Let me know about it.<br>
 ## You can mail me at:
- <a href="mailto:'hasanuzzamanbe@gmail.com'">hasanuzzamanbe@gmail.com</a>
+ <a target="_blank" href="mailto:'hasanuzzamanbe@gmail.com'">hasanuzzamanbe@gmail.com</a>
 
 or 
 ## Get in touch with me:<br>
