@@ -34,3 +34,6 @@ or
 <a style="border: 1px solid #292828;padding: 2px;border-radius: 7px;box-shadow: 1px 1px 1px #330303;background: #00BCD4;color: white;" href="https://www.linkedin.com/in/hasanuzzaman-shamim-307680115/" target="_blank" >LinkedIn</a>
 <a style="border: 1px solid #292828;padding: 2px;border-radius: 7px;box-shadow: 1px 1px 1px #330303;background: #54b658;color: white;" title="Join with Telegram" href="https://t.me/xaaman" target="_blank" >Telegram</a>
 
+ 
+ For faster response please text me on https://www.hasanuzzaman.com live chat.
+
