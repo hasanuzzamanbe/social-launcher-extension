@@ -64,7 +64,6 @@ if(saved){
         newLink = 'http://' + newLink
         if(pic === "iconone"){
             chrome.storage.sync.set({iconone: newLink}, function() {});
-
             if(isLinAvail !== " " || isLinAvail !== undefined){
                 chrome.storage.sync.set({iconLogo1: isLinAvail}, function() {});
             }
@@ -93,7 +92,6 @@ if(saved){
                 chrome.storage.sync.set({iconLogo5: isLinAvail}, function() {});
             }
         }
-
     })
 }
 chrome.storage.sync.get(['iconone','icontwo','iconthree', 'iconfour', 'iconfive','iconLogo1','iconLogo2', 'iconLogo3', 'iconLogo4', 'iconLogo5'], function(result) {
@@ -104,7 +102,6 @@ chrome.storage.sync.get(['iconone','icontwo','iconthree', 'iconfour', 'iconfive'
     if(result.icontwo){
         document.getElementById('icon2').href = result.icontwo
         document.getElementById('icon2').title = result.icontwo
-
     }
     if(result.iconthree){
         document.getElementById('icon3').href = result.iconthree
@@ -113,7 +110,6 @@ chrome.storage.sync.get(['iconone','icontwo','iconthree', 'iconfour', 'iconfive'
     if(result.iconfour){
         document.getElementById('icon4').href = result.iconfour
         document.getElementById('icon4').title = result.iconfour
-
     }
     if(result.iconfive){
         document.getElementById('icon5').href = result.iconfive
