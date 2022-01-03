@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Social Launcher",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Quick Launce To your sites",
-  "icons": { 
+  "icons": {
          "128": "images/icon_128.png"
   },
   "browser_action": {
@@ -11,7 +11,6 @@
       "default_popup": "popup.html"
   },
   "author": "Hasanuzzaman",
-  "optional_permissions": ["tabs"],
-  "permissions": ["tabs", "topSites", "storage"],
+  "permissions": ["topSites", "storage"],
   "short_name": "S Launch"
 }
